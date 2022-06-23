@@ -76,20 +76,21 @@ button {
 
 /*------------------BUTTON------------------*/
 
-.btn-hero {
+.btn {
   background-color: var(--accent-color);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   min-width: 200px;
-  padding: 10px 32px;
+  height: 50px;
+  padding: 10px auto;
   margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: transparent;
@@ -748,6 +749,61 @@ header .logo:hover::after {
   text-transform: uppercase;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
+}
+
+.footer-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.footer-email {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.footer-email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 16px 15px;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-left: 105px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.btn-footer {
+  width: 200px;
+  margin-top: 48px;
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-svg {
+  display: block;
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
 }
 
 /*------------------MODAL------------------*/

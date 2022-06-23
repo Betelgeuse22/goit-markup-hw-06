@@ -55,7 +55,7 @@
       <section class="hero container">
         <div class="hero-box">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="btn-hero" data-modal-open>
+          <button type="button" class="btn" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -386,6 +386,31 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <div class="footer-subscribe">
+            <label for="footeremail" class="footer-label">
+              Подпишитесь на рассылку
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="footeremail"
+              class="footer-email"
+              placeholder="E-mail"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-footer">
+            Подписаться
+            <svg class="submit-svg">
+              <use
+                href="./images/icons.svg#icon-icon-send"
+                width="24"
+                height="24"
+              ></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div class="bacdrop is-hidden" data-modal>
